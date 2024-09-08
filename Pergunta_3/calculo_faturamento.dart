@@ -1,29 +1,3 @@
-List<int> exemploFaturamento = [
-  125050,
-  132000,
-  110075,
-  145020,
-  160000,
-  138055,
-  127030,
-  150080,
-  142000,
-  160545,
-  170030,
-  155090,
-  165000,
-  172060,
-  180020,
-  134575,
-  129090,
-  140035,
-  158070,
-  175000
-];
-String formatarFaturamento(int valor) {
-  return (valor / 100).toStringAsFixed(2);
-}
-
 void main(List<String> args) {
   /* 
     Função recebera uma lista de faturamentos por dia no formato int onde as 
