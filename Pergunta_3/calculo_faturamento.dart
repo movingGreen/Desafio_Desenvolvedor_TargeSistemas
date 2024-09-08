@@ -1,7 +1,7 @@
 void main(List<String> args) {
   /* 
     Função recebera uma lista de faturamentos por dia no formato int onde as 
-    duas primeiras casas decimais são os centavos.
+    duas primeiras casas decimais são os centavos. 
     Retorno definidp como [menorFaturamento, maiorFaturamento, numeroDeDiasMaiorQueMedia].
   */
   List<int> calcularFaturamento(List<int> faturamentoDiario) {
