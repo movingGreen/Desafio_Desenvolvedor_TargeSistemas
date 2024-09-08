@@ -1,0 +1,8 @@
+-- Comando SQL de pesquisa no Banco de Dados
+
+SELECT C.Usuario_id, T.Telefone, TT.Tipo_Telefone
+FROM CLIENTE C
+JOIN ESTADO E ON C.Codigo_Estado = E.Codigo_Estado
+JOIN TELEFONE T ON C.Telefone_ID = T.Telefone_ID
+JOIN TIPO_TELEFONE TT ON T.Tipo_Telefone_ID = TT.Tipo_Telefone_ID
+WHERE E.Codigo_Estado = 'SP';
